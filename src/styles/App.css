@@ -1,0 +1,127 @@
+
+.App{
+  display: flex;
+  height: 100vh;
+  
+}
+
+.sidebar{
+  width: 30%;
+  background-color: rgb(25,29,60);
+}
+
+.sidebar img {
+  margin-left: 38px;
+}
+
+.content{
+  color: white;
+  font-size: 28px;
+  font-family:'sans-serif';
+  font-weight: 500;
+  padding-left: 30px;
+
+}
+.span{
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-style: normal;
+  line-height: 25px;
+}
+
+.register{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #FFFFFF;
+}
+
+.curve{
+  width: 70%;
+  background-color: rgb(25,29,60);
+}
+
+.header{
+  width: 100%;
+  height:30px;
+ 
+}
+
+.main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  padding-left: 70px;
+  padding-top: 50px;
+}
+.heading h1{
+  color: #45586B;
+}
+.heading span{
+  color: #8692A6;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: center;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.info input{
+  border: none;
+  border-bottom: 1px solid #E8E8E8;
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 30px;
+}
+
+.info input:active{
+   outline: none;
+   border-bottom: 1px solid black;
+}
+
+.info button{
+  border: none;
+  text-decoration: none;
+  color: white;
+  height:40px;
+  width:271px;
+  background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%) ;
+  border-radius: 10px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .sidebar {
+     display: none;
+  }
+  .curve{
+    background-color: white;
+  }
+  .register{
+    width: 100vw;
+  }
+}
