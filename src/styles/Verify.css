@@ -81,6 +81,23 @@
 
   }
 
+  @media screen and (max-width: 933px) {
+    body{
+        background-color: rgb(32,52,76);
+    }
+    .head{
+        min-width: 150%;
+    }
+    .body{
+        min-width: 150%;
+        min-height:100%;
+    }
+    .line{
+        display: none;
+    }
+    
+  }
+
   @media screen and (max-width: 650px) {
     body{
         background-color: rgb(32,52,76);

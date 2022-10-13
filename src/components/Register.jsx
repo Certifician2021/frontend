@@ -25,7 +25,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" style={{height:'auto', width:'100%'}}>
       <div className="sidebar">
         <img src={Logo} alt="logo" />
         <div className="content">
@@ -55,7 +55,7 @@ function App() {
           <div className='info'>
              <input onChange={(e)=>setForm({...form,[e.target.name]:e.target.value})} placeholder="First Name" name="fname" type="text" />
              <input onChange={(e)=>setForm({...form,[e.target.name]:e.target.value})} placeholder="Last Name" name="lname" type="text" />
-             <input onChange={(e)=>setForm({...form,[e.target.name]:e.target.value})} placeholder="Email Name" name="email" type="email" />
+             <input onChange={(e)=>setForm({...form,[e.target.name]:e.target.value})} placeholder="Email" name="email" type="email" />
              <input onChange={(e)=>setForm({...form,[e.target.name]:e.target.value})} placeholder="referral-ID" name="id" type="text" />
              <input onChange={(e)=>setForm({...form,[e.target.name]:e.target.value})} placeholder="Password" name="password" type="password" />
              <div style={{display:"flex",justifyContent:"center"}}>
