@@ -129,7 +129,30 @@
   .register{
     background-color: white;
     width: 100vw;
+    height: 100%;
+  }
+  .main{
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+  .sidebar {
+     display: none;
+  }
+  .curve{
+    background-color: white;
+   
+  }
+  body{
+    width: 100vw;
     height: 100vh;
+  }
+  .register{
+    background-color: white;
+    width: 100vw;
+    height: 100%;
   }
   .main{
     height: 100%;
