@@ -108,9 +108,16 @@ body{
         background-color: rgb(32,52,76);
         width: 50%;
         height:100vh;
+        font-size: 14px;
     }
     .head{
         width: 100%;
+    }
+    .logo h2{
+        font-size: 18px;
+    }
+    .logo img{
+        width: 100px;
     }
   
     .line{
